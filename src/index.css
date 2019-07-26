@@ -141,17 +141,19 @@ ol {
 li {
     display: list-item;
     text-align: -webkit-match-parent;
+    list-style-type: none;
 }
 ul ul, ol ul {
-    list-sttype: circle
+    list-style-type: none;
 }
 ol ol ul, ol ul ul, ul ol ul, ul ul ul {
-    list-se-type: square
+    list-style-type: none;
 }
 
 a,
 a:visited,
 a:active {
+    color: #c04789;
     text-decoration: none;
     font-weight: bold;
     font-size: 1rem;

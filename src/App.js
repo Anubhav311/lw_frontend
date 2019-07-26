@@ -1,7 +1,63 @@
 import React from 'react';
+import ReactDOM from "react-dom";
+import Accordion from "./faq/accordion";
+import Tabs from "./faq/Tabs";
+
 import './App.css';
 
+let faqContent = {
+  LinkWork: {
+    questionOne: {
+      title: "WHAT IS LINKWORK?",
+      content: "LinkWork is worlds first and only platform for which let's you make money without doing any work or spending any time.",
+    },
+    questionTwo: {
+      title: "HOW WILL LINKWORK PROVIDE SERVICES TO CLIENT?",
+      content: "LinkWork is connected with world class professional firms. Our network of professional firms will provide the services to client.",
+    },
+    questionThree: {
+      title: "WHAT TYPE OF CLIENTS?",
+      content: "GST, Accounts, Starting Business, Company Registration, Income Tax, Labour Law or any other legal or financial service.",
+    }
+  },
+  HowMakeMoney : {
+    questionOne: {
+      title: "HOW CAN I MAKE MONEY",
+      content: "by referring clients and creating a chain of people working under you.",
+    },
+    questionTwo: {
+      title: "HOW MANY HOURS DO I NEED TO WORK?",
+      content: "Zero. You don't have to work at all. But you can work if you want. Just refer a client to us and we will take care of rest.",
+    },
+    questionThree: {
+      title: "DO I NEED TO PAY ANYTHING?",
+      content: "NO. We will never ask you to pay anything. Never. Ever.",
+    }
+  },
+  CreateChain : {
+    questionOne: {
+      title: "HOW CAN I CREATE A CHAIN?",
+      content: "After you are accepted, you can add more people under you and create a chain. For more details on creating chain go to this LINK.",
+    },
+    questionTwo: {
+      title: "WHAT IS THE BENEFIT OF CREATING A CHAIN?",
+      content: "You chain will give Business to LinkWork and we will pay incentive to you and your chain.",
+    },
+    questionThree: {
+      title: "HOW MANY PEOPLE CAN I ADD IN MY CHAIN?",
+      content: "you can add 5 people. Then those 5 people can further add 5 people each. This way you will have 25 people in your chain.",
+    },
+    questionFour: {
+      title: "HOW MUCH INCENTIVE WILL I GET FROM MY CHAIN",
+      content: "You will get 20% commission from a direct client. You will earn 10% from people on level 1 of your chain. You will earch 5% from people on level 2 of your chain."
+    }
+  }
+
+}
+
+
 function App() {
+  console.log(faqContent.LinkWork)
   return (
     <div className="App">
         <nav>
@@ -19,21 +75,60 @@ function App() {
         </div>
         <div>
           <h2>Refer a client and become a link. arn 20% of consideration without any limit in first year. After that upto Rs. 50,000</h2>
-          <p>WHAT IS LINKWORK: LinkWork is worlds first and only platform for which let's you make money without doing any work or spending any time.</p>
-          <p>HOW CAN I MAKE MONEY: by referring clients and creating a chain of people working under you.</p>
-          <p>HOW CAN I CREATE A CHAIN: After you are accepted, you can add more people under you and create a chain. For more details on creating chain go to this LINK.</p>
-          <p>WHAT IS THE BENEFIT OF CREATING A CHAIN: You chain will give Business to LinkWork and we will pay incentive to you and your chain.</p>
-          <p>HOW MANY PEOPLE CAN I ADD IN MY CHAIN: you can add 5 people. Then those 5 people can further add 5 people each. This way you will have 25 people in your chain.</p>
-          <p>HOW MUCH INCENTIVE WILL I GET FROM MY CHAIN: You will get 20% commission from a direct client. You will earn 10% from people on level 1 of your chain. You will earch 5% from people on level 2 of your chain.</p>
-          <p>HOW MANY HOURS DO I NEED TO WORK: Zero. You don't have to work at all. But you can work if you want. Just refer a client to us and we will take care of rest.</p>
-          <p>HOW WILL LINKWORK PROVIDE SERVICES TO CLIENT: LinkWork is connected with world class professional firms. Our network of professional firms will provide the services to client.</p>
-          <p>WHAT TYPE OF CLIENTS: GST, Accounts, Starting Business, Company Registration, Income Tax, Labour Law or any other legal or financial service.</p>
-          <p>DO I NEED TO PAY ANYTHING: NO. We will never ask you to pay anything. Never. Ever.</p>
           <p>I HAVE MORE QUESTIONS: You can apply and provide your details. I we find your profile suitable we will call you and you can ask all the questions that you have.</p>
           <p>HOW MUCH MONEY CAN I MAKE: If you work alone you will make minimum 50,000. If you create your chain of people, there's no limit on the amounnt of money you can make. Maximum depends on your performance.</p>
           <p>HOW CAN I PASS THE INTERVIEW: If you have links and work with businessmen, there's a good chance you will be accepted. If you have experience of dealing with people. If your job includes dealing with clients. If you have worked in B2B industry.</p>
           <br/><br/><br/>
         </div>
+        <Tabs className="tabs">
+          <div label="What is LinkWork">
+            <Accordion
+              title = {`${faqContent.LinkWork.questionOne.title}`}
+              content = {`${faqContent.LinkWork.questionOne.content}`}
+            />
+            <Accordion
+              title = {`${faqContent.LinkWork.questionTwo.title}`}
+              content = {`${faqContent.LinkWork.questionTwo.content}`}
+            />
+            <Accordion
+              title = {`${faqContent.LinkWork.questionThree.title}`}
+              content = {`${faqContent.LinkWork.questionThree.content}`}
+            />
+          </div>
+          <div label="How Can I Make Money">
+          <Accordion
+              title = {`${faqContent.HowMakeMoney.questionOne.title}`}
+              content = {`${faqContent.HowMakeMoney.questionOne.content}`}
+            />
+            <Accordion
+              title = {`${faqContent.HowMakeMoney.questionTwo.title}`}
+              content = {`${faqContent.HowMakeMoney.questionTwo.content}`}
+            />
+            <Accordion
+              title = {`${faqContent.HowMakeMoney.questionThree.title}`}
+              content = {`${faqContent.HowMakeMoney.questionThree.content}`}
+            />
+          </div>
+          <div label="How to create chain">
+          <Accordion
+              title = {`${faqContent.CreateChain.questionOne.title}`}
+              content = {`${faqContent.CreateChain.questionOne.content}`}
+            />
+            <Accordion
+              title = {`${faqContent.CreateChain.questionTwo.title}`}
+              content = {`${faqContent.CreateChain.questionTwo.content}`}
+            />
+            <Accordion
+              title = {`${faqContent.CreateChain.questionThree.title}`}
+              content = {`${faqContent.CreateChain.questionThree.content}`}
+            />
+            <Accordion
+              title = {`${faqContent.CreateChain.questionFour.title}`}
+              content = {`${faqContent.CreateChain.questionFour.content}`}
+            />
+          </div>
+          <div label="I Have More Questions"> Apply to LinkWork and we will contact you </div>
+        </Tabs>
         <section>
           <h3>Here's how you can do it</h3>
           <p>Step 1: Clear interview and get accepted</p>
