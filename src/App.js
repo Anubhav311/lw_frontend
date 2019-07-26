@@ -22,6 +22,9 @@ function App() {
           <p>WHAT IS LINKWORK: LinkWork is worlds first and only platform for which let's you make money without doing any work or spending any time.</p>
           <p>HOW CAN I MAKE MONEY: by referring clients and creating a chain of people working under you.</p>
           <p>HOW CAN I CREATE A CHAIN: After you are accepted, you can add more people under you and create a chain. For more details on creating chain go to this LINK.</p>
+          <p>WHAT IS THE BENEFIT OF CREATING A CHAIN: You chain will give Business to LinkWork and we will pay incentive to you and your chain.</p>
+          <p>HOW MANY PEOPLE CAN I ADD IN MY CHAIN: you can add 5 people. Then those 5 people can further add 5 people each. This way you will have 25 people in your chain.</p>
+          <p>HOW MUCH INCENTIVE WILL I GET FROM MY CHAIN: You will get 20% commission from a direct client. You will earn 10% from people on level 1 of your chain. You will earch 5% from people on level 2 of your chain.</p>
           <p>HOW MANY HOURS DO I NEED TO WORK: Zero. You don't have to work at all. But you can work if you want. Just refer a client to us and we will take care of rest.</p>
           <p>HOW WILL LINKWORK PROVIDE SERVICES TO CLIENT: LinkWork is connected with world class professional firms. Our network of professional firms will provide the services to client.</p>
           <p>WHAT TYPE OF CLIENTS: GST, Accounts, Starting Business, Company Registration, Income Tax, Labour Law or any other legal or financial service.</p>
@@ -44,7 +47,8 @@ function App() {
         </section>
         <section>
           <h2>How can I create a chain?</h2>
-          <p>Add more links below yourself Make 10% of the consideration from link level 1 Make 5% of the consideration from link level 2</p>
+          <p>Add more links below yourself and Make 10% of the consideration from link level 1 Make 5% of the consideration from link level 2</p>
+          <p></p>
         </section>
         <section>
           <p>We are a completely remote company. You don't have to come to office. You can work from wherever you want.</p>
