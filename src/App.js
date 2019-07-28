@@ -42,6 +42,39 @@ function App() {
           <p>HOW MUCH MONEY CAN I MAKE: If you work alone you will make minimum 50,000. If you create your chain of people, there's no limit on the amounnt of money you can make. Maximum depends on your performance.</p>
           <p>HOW CAN I PASS THE INTERVIEW: If you have links and work with businessmen, there's a good chance you will be accepted. If you have experience of dealing with people. If your job includes dealing with clients. If you have worked in B2B industry.</p>
         </div>
+
+        <section className="steps">
+          <h3>Here's how you can do it</h3>
+          <div className="step reverse">
+            <div className="step-text">
+              <h2>Step 1: Clear interview and get accepted</h2>
+              <p>Apply for an interview, do the interview and if you are accepted you can start right away.</p>
+            </div>
+            <img style={{width: "45%"}} src={interview_img} alt="interview image"/>
+          </div>
+          <div className="step">
+          <div className="step-text">
+              <h2>Step 2: Give referrals</h2>
+              <p>Once you are accepted, all you have to do is just keep you eyes and ears open. Whenever you find someone who needs legal and financial services, you just tell them that you know us and we can provide them the services they need.</p>
+            </div>
+            <img style={{width: "45%"}} src={refer_img} alt="refer image"/>
+          </div>
+          <div className="step reverse">
+          <div className="step-text">
+              <h2>Step 3: get incentives in your bank</h2>
+              <p>We will contact the client. We will meet the client and if client agrees to give us the work we will do the work and raise the bill. Once client pays the bill, you will get your incentive.</p>
+            </div>
+            <img style={{width: "45%"}} src={incentive_img} alt="incentive image"/>
+          </div>
+          <div className="step">
+          <div className="step-text">
+              <h2>Step 4: Create your own chain (actually you can start creating your chain whenever you want. We suggest asap)</h2>
+              <p>If you know poeple who have links with bussinesses and firms, you can add them in your chain. They will do the same work. Refer clients to us. We will pay incentive to them as well as you. Building your chain is a great way of making a lot of money. larger the chain, more the incentive.</p>
+            </div>
+            <img style={{width: "45%"}} src={chain_img} alt="chain image"/>
+          </div>
+        </section>
+
         <Tabs className="tabs">
           <div label="What is LinkWork">
             <Accordion
@@ -91,37 +124,6 @@ function App() {
           </div>
           <div label="I Have More Questions"> Apply to LinkWork and we will contact you </div>
         </Tabs>
-        <section className="steps">
-          <h3>Here's how you can do it</h3>
-          <div className="step reverse">
-            <div className="step-text">
-              <h2>Step 1: Clear interview and get accepted</h2>
-              <p>Apply for an interview, do the interview and if you are accepted you can start right away.</p>
-            </div>
-            <img style={{width: "45%"}} src={interview_img} alt="interview image"/>
-          </div>
-          <div className="step">
-          <div className="step-text">
-              <h2>Step 2: Give referrals</h2>
-              <p>Once you are accepted, all you have to do is just keep you eyes and ears open. Whenever you find someone who needs legal and financial services, you just tell them that you know us and we can provide them the services they need.</p>
-            </div>
-            <img style={{width: "45%"}} src={refer_img} alt="refer image"/>
-          </div>
-          <div className="step reverse">
-          <div className="step-text">
-              <h2>Step 3: get incentives in your bank</h2>
-              <p>We will contact the client. We will meet the client and if client agrees to give us the work we will do the work and raise the bill. Once client pays the bill, you will get your incentive.</p>
-            </div>
-            <img style={{width: "45%"}} src={incentive_img} alt="incentive image"/>
-          </div>
-          <div className="step">
-          <div className="step-text">
-              <h2>Step 4: Create your own chain (actually you can start creating your chain whenever you want. We suggest asap)</h2>
-              <p>If you know poeple who have links with bussinesses and firms, you can add them in your chain. They will do the same work. Refer clients to us. We will pay incentive to them as well as you. Building your chain is a great way of making a lot of money. larger the chain, more the incentive.</p>
-            </div>
-            <img style={{width: "45%"}} src={chain_img} alt="chain image"/>
-          </div>
-        </section>
         <section>
           <h2>How can I create a chain?</h2>
           <p>Add more links below yourself and Make 10% of the consideration from link level 1 Make 5% of the consideration from link level 2</p>
@@ -131,8 +133,7 @@ function App() {
           <p>We are a completely remote company. You don't have to come to office. You can work from wherever you want.</p>
         </section>
         <footer>
-          <p>contact</p>
-          <p>apply</p>
+          <p>Copyright &copy; 2019 LINKWORK All Rights Reserved</p>
         </footer>
     </div>
   );

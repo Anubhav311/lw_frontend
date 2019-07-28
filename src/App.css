@@ -1,4 +1,5 @@
 
+
 /*Navigation bar*/
 .navbar {
     display: flex;
@@ -93,4 +94,17 @@
 
 .reverse {
     flex-direction: row-reverse;
+}
+
+/* Footer */
+footer {
+    background-color: #6C63FF;
+    font-size: 1rem;
+    margin: 0;
+    height: 50px;
+    color: white;
+    /* font-weight: bold; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
