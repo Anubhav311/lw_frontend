@@ -71,3 +71,26 @@
     color: white;
     cursor: pointer;
 }
+
+/*Steps*/
+.steps {
+    padding-left: 7%;
+    padding-right: 7%;
+}
+.step {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.step h2 {
+    font-size: 1.2rem;
+}
+
+.step-text {
+    width: 40%;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
