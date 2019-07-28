@@ -1,4 +1,5 @@
 
+
 /*Navigation bar*/
 .navbar {
     display: flex;
@@ -32,6 +33,10 @@
     color: white;
 }
 
+.landing-page-navbuttons li {
+    cursor: pointer;
+}
+
 /*Header*/
 .header {
     display: flex;
@@ -61,8 +66,45 @@
     height: 50px;
     border-radius: 5px;
     border: none;
-    background-color: purple;
+    background-color: darkorchid;
     font-size: 1rem;
     font-weight: bold;
     color: white;
+    cursor: pointer;
+}
+
+/*Steps*/
+.steps {
+    padding-left: 7%;
+    padding-right: 7%;
+}
+.step {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.step h2 {
+    font-size: 1.2rem;
+}
+
+.step-text {
+    width: 40%;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+/* Footer */
+footer {
+    background-color: #6C63FF;
+    font-size: 1rem;
+    margin: 0;
+    height: 50px;
+    color: white;
+    /* font-weight: bold; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
