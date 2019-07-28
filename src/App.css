@@ -32,6 +32,10 @@
     color: white;
 }
 
+.landing-page-navbuttons li {
+    cursor: pointer;
+}
+
 /*Header*/
 .header {
     display: flex;
@@ -61,8 +65,9 @@
     height: 50px;
     border-radius: 5px;
     border: none;
-    background-color: purple;
+    background-color: darkorchid;
     font-size: 1rem;
     font-weight: bold;
     color: white;
+    cursor: pointer;
 }
