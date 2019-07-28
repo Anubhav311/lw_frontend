@@ -12,12 +12,12 @@ function App() {
   console.log(faqContent.LinkWork)
   return (
     <div className="App">
-        <nav>
-          <ul>
-            <li>logo</li>
-            <li>login</li>
-            <li>contact</li>
-            <li>apply</li>
+        <nav className="navbar">
+          <p>LinkWork</p>
+          <ul className="landing-page-navbuttons">
+            <li>Apply</li>
+            <li>Contact</li>
+            <li>Login</li>
           </ul>
         </nav>
         <img style={{width: "100%"}} src={header_image} alt="header image"/>
