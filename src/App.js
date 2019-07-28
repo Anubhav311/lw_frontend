@@ -20,12 +20,14 @@ function App() {
             <li>Login</li>
           </ul>
         </nav>
-        <img style={{width: "100%"}} src={header_image} alt="header image"/>
-
-        <div>
-          <h1>LinkWork</h1>
-          <h3>Earn Minimum Rs. 50,000</h3>
-          <h3>Without spending any time or money</h3>
+        <div className="header">
+          <div>
+            <h1>LinkWork</h1>
+            <p>Earn Minimum <span>Rs. 50,000</span></p>
+            <p>Without spending any time or money</p>
+            <button>Apply</button>
+          </div>
+          <img style={{width: "60%"}} src={header_image} alt="header image"/>
         </div>
         <div>
           <h2>Refer a client and become a link. arn 20% of consideration without any limit in first year. After that upto Rs. 50,000</h2>
