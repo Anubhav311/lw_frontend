@@ -47,6 +47,7 @@
 .header h1 {
     font-size: 3rem;
     margin-bottom: 15px;
+    color: #2F2E41;
 }
 
 .header p {
@@ -57,7 +58,6 @@
 
 .header p span {
     font-weight: bold;
-    text-decoration: underline;
 }
 
 .header button {
@@ -75,13 +75,23 @@
 
 /* Gist Text */
 .gist-text {
-    height: 500px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gist-text h2 {
+    margin-bottom: 20px;
+    color: #2F2E41;
 }
 
 /*Steps*/
 .steps {
     padding-left: 7%;
     padding-right: 7%;
+    text-align: center;
 }
 .step {
     display: flex;

@@ -29,7 +29,7 @@ function App() {
         <div className="header">
           <div>
             <h1>LinkWork</h1>
-            <p>Earn Minimum <span>Rs. 50,000</span></p>
+            <p>Earn Minimum <span>"Rs. 50,000"</span></p>
             <p>Without spending any time or money</p>
             <button>Apply</button>
           </div>
@@ -39,8 +39,7 @@ function App() {
         <div className="gist-text">
           <h2>Refer a client. Create a chain.</h2>
           <h2>And just sit back while we will make money for you.</h2>
-          <p></p>
-          <p></p>
+          <p>Simply earn incentives for the clients referred by you and the clients referred by your chain members.</p>
         </div>
 
         <section className="steps">
@@ -137,14 +136,7 @@ function App() {
             />
           </div>
         </Tabs>
-        <section>
-          <h2>How can I create a chain?</h2>
-          <p>Add more links below yourself and Make 10% of the consideration from link level 1 Make 5% of the consideration from link level 2</p>
-          <p></p>
-        </section>
-        <section>
-          <p>We are a completely remote company. You don't have to come to office. You can work from wherever you want.</p>
-        </section>
+
         <footer>
           <p>Copyright &copy; 2019 LINKWORK All Rights Reserved</p>
         </footer>
