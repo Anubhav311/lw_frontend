@@ -73,6 +73,11 @@
     cursor: pointer;
 }
 
+/* Gist Text */
+.gist-text {
+    height: 500px;
+}
+
 /*Steps*/
 .steps {
     padding-left: 7%;
@@ -103,7 +108,6 @@ footer {
     margin: 0;
     height: 50px;
     color: white;
-    /* font-weight: bold; */
     display: flex;
     justify-content: center;
     align-items: center;

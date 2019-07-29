@@ -36,11 +36,11 @@ function App() {
           <img style={{width: "60%"}} src={header_img} alt="header image"/>
         </div>
 
-        <div>
-          <h2>Refer a client and become a link. arn 20% of consideration without any limit in first year. After that upto Rs. 50,000</h2>
-          <p>I HAVE MORE QUESTIONS: You can apply and provide your details. I we find your profile suitable we will call you and you can ask all the questions that you have.</p>
-          <p>HOW MUCH MONEY CAN I MAKE: If you work alone you will make minimum 50,000. If you create your chain of people, there's no limit on the amounnt of money you can make. Maximum depends on your performance.</p>
-          <p>HOW CAN I PASS THE INTERVIEW: If you have links and work with businessmen, there's a good chance you will be accepted. If you have experience of dealing with people. If your job includes dealing with clients. If you have worked in B2B industry.</p>
+        <div className="gist-text">
+          <h2>Refer a client. Create a chain.</h2>
+          <h2>And just sit back while we will make money for you.</h2>
+          <p></p>
+          <p></p>
         </div>
 
         <section className="steps">
@@ -103,6 +103,14 @@ function App() {
               title = {`${faqContent.HowMakeMoney.questionThree.title}`}
               content = {`${faqContent.HowMakeMoney.questionThree.content}`}
             />
+            <Accordion
+              title = {`${faqContent.HowMakeMoney.questionFour.title}`}
+              content = {`${faqContent.HowMakeMoney.questionFour.content}`}
+            />
+            <Accordion
+              title = {`${faqContent.HowMakeMoney.questionFive.title}`}
+              content = {`${faqContent.HowMakeMoney.questionFive.content}`}
+            />
           </div>
           <div label="How to create chain">
           <Accordion
@@ -122,7 +130,12 @@ function App() {
               content = {`${faqContent.CreateChain.questionFour.content}`}
             />
           </div>
-          <div label="I Have More Questions"> Apply to LinkWork and we will contact you </div>
+          <div label="I Have More Questions">
+            <Accordion
+              title = {`${faqContent.MoreQuestions.questionOne.title}`}
+              content = {`${faqContent.MoreQuestions.questionOne.content}`}
+            />
+          </div>
         </Tabs>
         <section>
           <h2>How can I create a chain?</h2>

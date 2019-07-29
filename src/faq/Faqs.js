@@ -29,6 +29,14 @@ let faqContent = {
       questionThree: {
         title: "DO I NEED TO PAY ANYTHING?",
         content: "NO. We will never ask you to pay anything. Never. Ever.",
+      },
+      questionFour: {
+        title: "HOW MUCH MONEY CAN I MAKE?",
+        content: "If you work alone you will make minimum 50,000. If you create your chain of people, there's no limit on the amounnt of money you can make. Maximum depends on your performance.",
+      },
+      questionFive: {
+        title: "HOW CAN I PASS THE INTERVIEW",
+        content: "If you have links and work with businessmen, there's a good chance you will be accepted. If you have experience of dealing with people. If your job includes dealing with clients. If you have worked in B2B industry.",
       }
     },
     CreateChain : {
@@ -47,6 +55,12 @@ let faqContent = {
       questionFour: {
         title: "HOW MUCH INCENTIVE WILL I GET FROM MY CHAIN",
         content: "You will get 20% commission from a direct client. You will earn 10% from people on level 1 of your chain. You will earch 5% from people on level 2 of your chain."
+      }
+    },
+    MoreQuestions: {
+      questionOne: {
+        title: "I HAVE MORE QUESTIONS",
+        content: "You can apply and provide your details. I we find your profile suitable we will call you and you can ask all the questions that you have.",
       }
     }
   
