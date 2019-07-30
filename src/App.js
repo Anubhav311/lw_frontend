@@ -6,10 +6,11 @@ import Tabs from "./faq/Tabs";
 import './App.css';
 import faqContent from './faq/Faqs';
 import header_img from './assets/header_img.png';
-import chain_img from './assets/chain_img.png';
-import incentive_img from './assets/incentive_img.png';
+import chain_img from './assets/chain_img_nobg.png';
+import incentive_img from './assets/incentive_img_nobg.png';
 import interview_img from './assets/interview_img.png';
-import refer_img from './assets/refer_img.png';
+import refer_img from './assets/refer_img_nobg.png';
+import ApplicationForm from './components/ApplicationForm';
 
 
 function App() {
@@ -140,6 +141,7 @@ function App() {
         <footer>
           <p>Copyright &copy; 2019 LINKWORK All Rights Reserved</p>
         </footer>
+        <ApplicationForm/>
     </div>
   );
 }
