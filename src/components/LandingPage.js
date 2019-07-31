@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 import Accordion from "./faq/accordion";
 import Tabs from "./faq/Tabs";
@@ -16,7 +17,7 @@ function LandingPage() {
     <nav className="navbar">
     <p>LinkWork</p>
     <ul className="landing-page-navbuttons">
-      <li>Apply</li>
+      <Link to="/apply"><li>Apply</li></Link>
       <li>Contact</li>
       <li>Login</li>
     </ul>
