@@ -1,28 +1,18 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 
-import Accordion from "./faq/accordion";
-import Tabs from "./faq/Tabs";
-import faqContent from './faq/Faqs';
-import header_img from '../assets/header_img.png';
-import chain_img from '../assets/chain_img.png';
-import incentive_img from '../assets/incentive_img.png';
-import interview_img from '../assets/interview_img.png';
-import refer_img from '../assets/refer_img.png';
+import Accordion from "../faq/accordion";
+import Tabs from "../faq/Tabs";
+import faqContent from '../faq/Faqs';
+import header_img from '../../assets/header_img.png';
+import chain_img from '../../assets/chain_img.png';
+import incentive_img from '../../assets/incentive_img.png';
+import interview_img from '../../assets/interview_img.png';
+import refer_img from '../../assets/refer_img.png';
 
 
 function LandingPage() {
     return (
-    <div>  
-    <nav className="navbar">
-    <p>LinkWork</p>
-    <ul className="landing-page-navbuttons">
-      <Link to="/apply"><li>Apply</li></Link>
-      <li>Contact</li>
-      <Link to="/login"><li>Login</li></Link>
-    </ul>
-  </nav>
-
+  <div>
   <div className="header">
     <div>
       <h1>LinkWork</h1>
