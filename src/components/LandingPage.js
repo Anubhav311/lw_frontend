@@ -19,7 +19,7 @@ function LandingPage() {
     <ul className="landing-page-navbuttons">
       <Link to="/apply"><li>Apply</li></Link>
       <li>Contact</li>
-      <li>Login</li>
+      <Link to="/login"><li>Login</li></Link>
     </ul>
   </nav>
 
