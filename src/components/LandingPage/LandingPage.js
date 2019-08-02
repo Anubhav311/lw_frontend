@@ -66,7 +66,7 @@ function LandingPage() {
   </section>
 
   <section className="apply-bottom">
-    <h2>Want to get started right away ?</h2>
+    <h1>Want to get started right away ?</h1>
     <button className="button bottom-button">Apply</button>
   </section>
 
