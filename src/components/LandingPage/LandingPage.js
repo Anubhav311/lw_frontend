@@ -124,10 +124,11 @@ function LandingPage() {
         />
       </div>
       <div label="I Have More Questions">
-        <Accordion
-          title = {`${faqContent.MoreQuestions.questionOne.title}`}
-          content = {`${faqContent.MoreQuestions.questionOne.content}`}
-          />
+        <div className="faq-apply">
+          <h2>If you have more questions,</h2> 
+          <h2>go ahead and apply and we will get in touch with you.</h2>
+          <button className="button faq-button">Apply</button>
+        </div>
       </div>
     </Tabs>
   </section>

@@ -165,6 +165,27 @@
     margin-bottom: 70px;
 }
 
+.faq-apply {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.faq-apply h2 {
+    /* line-height: 30px; */
+    margin-bottom: 15px;
+}
+
+.faq-button {
+    margin: auto;
+    width: 30%;
+    margin-top: 50px;
+}
+
 /* Footer */
 footer {
     background-color: #6C63FF;
