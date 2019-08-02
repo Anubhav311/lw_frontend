@@ -103,6 +103,7 @@
     text-align: center;
     padding-top: 50px;
     padding-bottom: 100px;
+    background-color: #F3F2F7;
 }
 
 .bottom-button {
@@ -117,6 +118,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #F3F2F7;
 }
 
 .gist-text h2 {
