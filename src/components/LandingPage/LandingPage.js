@@ -18,7 +18,7 @@ function LandingPage() {
       <h1>LinkWork</h1>
       <p>Earn Minimum <span>"Rs. 50,000"</span></p>
       <p>Without spending any time or money</p>
-      <button>Apply</button>
+      <button className="button">Apply</button>
     </div>
     <img style={{width: "60%"}} src={header_img} alt="header image"/>
   </div>
@@ -30,7 +30,7 @@ function LandingPage() {
   </div>
 
   <section className="steps">
-    <h3>Here's how you can do it</h3>
+    <h3 className="steps-heading">Here's are the steps to get started</h3>
     <div className="step reverse">
       <div className="step-text">
         <h2>Step 1: Clear interview and get accepted</h2>
@@ -59,6 +59,11 @@ function LandingPage() {
       </div>
       <img style={{width: "45%"}} src={chain_img} alt="chain image"/>
     </div>
+  </section>
+
+  <section className="apply-bottom">
+    <h2>Want to get started right away ?</h2>
+    <button className="button bottom-button">Apply</button>
   </section>
 
   <Tabs className="tabs">

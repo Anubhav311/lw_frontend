@@ -83,7 +83,7 @@
     font-weight: bold;
 }
 
-.header button {
+.button {
     margin-top: 30px;
     width: 60%;
     height: 50px;
@@ -94,6 +94,20 @@
     font-weight: bold;
     color: white;
     cursor: pointer;
+}
+
+.apply-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.bottom-button {
+    margin: 50px auto;
+    width: 20%;
 }
 
 /* Gist Text */
@@ -116,10 +130,16 @@
     padding-right: 7%;
     text-align: center;
 }
+
+.steps-heading {
+    margin-bottom: 70px;
+}
+
 .step {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 150px;
+    align-items: center;
+    margin-bottom: 100px;
 }
 
 .step h2 {
