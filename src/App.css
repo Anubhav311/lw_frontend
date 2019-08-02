@@ -9,6 +9,7 @@
     height: 60px;
     align-items: center;
     background: #6C63FF;
+    text-decoration: none;
 }
 
 .navbar p {
@@ -21,6 +22,16 @@
     height: 40%;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:visited {
+    text-decoration: none;
+    color: white;
 }
 
 .landing-page-navbuttons {

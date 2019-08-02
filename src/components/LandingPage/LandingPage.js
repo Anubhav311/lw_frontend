@@ -12,8 +12,7 @@ import refer_img from '../../assets/refer_img.png';
 
 function LandingPage() {
     return (
-    <div>  
-
+  <div>
   <div className="header">
     <div>
       <h1>LinkWork</h1>
