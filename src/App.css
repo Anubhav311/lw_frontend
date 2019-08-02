@@ -113,18 +113,44 @@
 }
 
 /* Gist Text */
-.gist-text {
+.gist-section {
+    background-color: #6C63FF;
     height: 600px;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.gist-div {
+    color: white;
+    width: 70%;
+    height: 70%;
+    margin: auto;
+    /* background-color: white; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #F3F2F7;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    background: repeating-linear-gradient(
+  45deg,
+  #606dbc,
+  #606dbc 14px,
+  #465298 15px,
+  #465298 14px
+);
 }
 
-.gist-text h2 {
+.gist-div h2 {
     margin-bottom: 20px;
-    color: #2F2E41;
+    /* color: #2F2E41; */
+}
+
+.gist-div h1 {
+    margin-bottom: 20px;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    /* color: #2F2E41; */
 }
 
 /*Steps*/
@@ -136,6 +162,8 @@
 
 .steps-heading {
     margin-bottom: 70px;
+    color: #6C63FF;
+    text-decoration: underline;
 }
 
 .step {

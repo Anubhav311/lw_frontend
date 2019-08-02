@@ -8,6 +8,7 @@ import chain_img from '../../assets/chain_img.png';
 import incentive_img from '../../assets/incentive_img.png';
 import interview_img from '../../assets/interview_img.png';
 import refer_img from '../../assets/refer_img.png';
+import link_img from '../../assets/link_img.png';
 
 
 function LandingPage() {
@@ -22,15 +23,18 @@ function LandingPage() {
     </div>
     <img style={{width: "60%"}} src={header_img} alt="header image"/>
   </div>
-
-  <div className="gist-text">
-    <h2>Refer a client. Create a chain.</h2>
-    <h2>And just sit back while we will make money for you.</h2>
-    <p>Simply earn incentives for the clients referred by you and the clients referred by your chain members.</p>
-  </div>
+  <section className="gist-section">
+    <div className="gist-div">
+      {/* <img style={{width: "60%"}} src={link_img} alt="header image"/> */}
+      <h1>LinkWork</h1>
+      <h2>Refer a client. Create a chain.</h2>
+      <h2>And just sit back while we will make money for you.</h2>
+      <p style={{fontWeight: 'bold'}}>Simply earn incentives for the clients referred by you and the clients referred by your chain members.</p>
+    </div>
+  </section>
 
   <section className="steps">
-    <h3 className="steps-heading">Here's are the steps to get started</h3>
+    <h1 className="steps-heading">Here is how you can join</h1>
     <div className="step reverse">
       <div className="step-text">
         <h2>Step 1: Clear interview and get accepted</h2>
