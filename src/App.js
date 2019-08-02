@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from "react-dom";
 import {withRouter, Router, Route, Switch, Redirect} from 'react-router-dom';
 import history from './history';
+import { Link } from 'react-router-dom';
 
 import './App.css';
 import LandingPage from './components/LandingPage/LandingPage'
@@ -12,6 +13,14 @@ import Login from './components/Login/Login';
 function App() {
   return (
     <Router className="App" history={history}>
+      <nav className="navbar">
+        <p>LinkWork</p>
+        <ul className="landing-page-navbuttons">
+          <Link to="/apply"><li>Apply</li></Link>
+          <li>Contact</li>
+          <Link to="/login"><li>Login</li></Link>
+        </ul>
+      </nav>
       <Route exact path="/" component={LandingPage}/>
       <Route path="/apply" component={ApplicationForm}/>
       <Route path="/login" component={Login}/>
