@@ -66,68 +66,71 @@ function LandingPage() {
     <button className="button bottom-button">Apply</button>
   </section>
 
-  <Tabs className="tabs">
-    <div label="What is LinkWork">
+  <section className="faq-section">
+    <h2>Frequently Asked Questions (FAQ)</h2>
+    <Tabs className="tabs">
+      <div label="What is LinkWork">
+        <Accordion
+          title = {`${faqContent.LinkWork.questionOne.title}`}
+          content = {`${faqContent.LinkWork.questionOne.content}`}
+        />
+        <Accordion
+          title = {`${faqContent.LinkWork.questionTwo.title}`}
+          content = {`${faqContent.LinkWork.questionTwo.content}`}
+        />
+        <Accordion
+          title = {`${faqContent.LinkWork.questionThree.title}`}
+          content = {`${faqContent.LinkWork.questionThree.content}`}
+        />
+      </div>
+      <div label="How Can I Make Money">
       <Accordion
-        title = {`${faqContent.LinkWork.questionOne.title}`}
-        content = {`${faqContent.LinkWork.questionOne.content}`}
-      />
+          title = {`${faqContent.HowMakeMoney.questionOne.title}`}
+          content = {`${faqContent.HowMakeMoney.questionOne.content}`}
+        />
+        <Accordion
+          title = {`${faqContent.HowMakeMoney.questionTwo.title}`}
+          content = {`${faqContent.HowMakeMoney.questionTwo.content}`}
+        />
+        <Accordion
+          title = {`${faqContent.HowMakeMoney.questionThree.title}`}
+          content = {`${faqContent.HowMakeMoney.questionThree.content}`}
+        />
+        <Accordion
+          title = {`${faqContent.HowMakeMoney.questionFour.title}`}
+          content = {`${faqContent.HowMakeMoney.questionFour.content}`}
+          />
+        <Accordion
+          title = {`${faqContent.HowMakeMoney.questionFive.title}`}
+          content = {`${faqContent.HowMakeMoney.questionFive.content}`}
+        />
+      </div>
+      <div label="How to create chain">
       <Accordion
-        title = {`${faqContent.LinkWork.questionTwo.title}`}
-        content = {`${faqContent.LinkWork.questionTwo.content}`}
-      />
-      <Accordion
-        title = {`${faqContent.LinkWork.questionThree.title}`}
-        content = {`${faqContent.LinkWork.questionThree.content}`}
-      />
-    </div>
-    <div label="How Can I Make Money">
-    <Accordion
-        title = {`${faqContent.HowMakeMoney.questionOne.title}`}
-        content = {`${faqContent.HowMakeMoney.questionOne.content}`}
-      />
-      <Accordion
-        title = {`${faqContent.HowMakeMoney.questionTwo.title}`}
-        content = {`${faqContent.HowMakeMoney.questionTwo.content}`}
-      />
-      <Accordion
-        title = {`${faqContent.HowMakeMoney.questionThree.title}`}
-        content = {`${faqContent.HowMakeMoney.questionThree.content}`}
-      />
-      <Accordion
-        title = {`${faqContent.HowMakeMoney.questionFour.title}`}
-        content = {`${faqContent.HowMakeMoney.questionFour.content}`}
-      />
-      <Accordion
-        title = {`${faqContent.HowMakeMoney.questionFive.title}`}
-        content = {`${faqContent.HowMakeMoney.questionFive.content}`}
-      />
-    </div>
-    <div label="How to create chain">
-    <Accordion
-        title = {`${faqContent.CreateChain.questionOne.title}`}
-        content = {`${faqContent.CreateChain.questionOne.content}`}
-      />
-      <Accordion
-        title = {`${faqContent.CreateChain.questionTwo.title}`}
-        content = {`${faqContent.CreateChain.questionTwo.content}`}
-      />
-      <Accordion
-        title = {`${faqContent.CreateChain.questionThree.title}`}
-        content = {`${faqContent.CreateChain.questionThree.content}`}
-      />
-      <Accordion
-        title = {`${faqContent.CreateChain.questionFour.title}`}
-        content = {`${faqContent.CreateChain.questionFour.content}`}
-      />
-    </div>
-    <div label="I Have More Questions">
-      <Accordion
-        title = {`${faqContent.MoreQuestions.questionOne.title}`}
-        content = {`${faqContent.MoreQuestions.questionOne.content}`}
-      />
-    </div>
-  </Tabs>
+          title = {`${faqContent.CreateChain.questionOne.title}`}
+          content = {`${faqContent.CreateChain.questionOne.content}`}
+        />
+        <Accordion
+          title = {`${faqContent.CreateChain.questionTwo.title}`}
+          content = {`${faqContent.CreateChain.questionTwo.content}`}
+        />
+        <Accordion
+          title = {`${faqContent.CreateChain.questionThree.title}`}
+          content = {`${faqContent.CreateChain.questionThree.content}`}
+        />
+        <Accordion
+          title = {`${faqContent.CreateChain.questionFour.title}`}
+          content = {`${faqContent.CreateChain.questionFour.content}`}
+        />
+      </div>
+      <div label="I Have More Questions">
+        <Accordion
+          title = {`${faqContent.MoreQuestions.questionOne.title}`}
+          content = {`${faqContent.MoreQuestions.questionOne.content}`}
+          />
+      </div>
+    </Tabs>
+  </section>
 
   <footer>
     <p>Copyright &copy; 2019 LINKWORK All Rights Reserved</p>
