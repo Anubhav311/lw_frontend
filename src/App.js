@@ -14,7 +14,7 @@ function App() {
   return (
     <Router className="App" history={history}>
       <nav className="navbar">
-        <p>LinkWork</p>
+        <Link to="/"><p className="logo">LinkWork</p></Link>
         <ul className="landing-page-navbuttons">
           <Link to="/apply"><li>Apply</li></Link>
           <li>Contact</li>
