@@ -4,8 +4,8 @@ import {withRouter, Router, Route, Switch, Redirect} from 'react-router-dom';
 import history from './history';
 
 import './App.css';
-import LandingPage from './components/LandingPage'
-import ApplicationForm from './components/ApplicationForm';
+import LandingPage from './components/LandingPage/LandingPage'
+import ApplicationForm from './components/ApplicationForm/ApplicationForm';
 import Login from './components/Login/Login';
 
 

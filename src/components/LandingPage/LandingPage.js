@@ -1,14 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 
-import Accordion from "./faq/accordion";
-import Tabs from "./faq/Tabs";
-import faqContent from './faq/Faqs';
-import header_img from '../assets/header_img.png';
-import chain_img from '../assets/chain_img.png';
-import incentive_img from '../assets/incentive_img.png';
-import interview_img from '../assets/interview_img.png';
-import refer_img from '../assets/refer_img.png';
+import Accordion from "../faq/accordion";
+import Tabs from "../faq/Tabs";
+import faqContent from '../faq/Faqs';
+import header_img from '../../assets/header_img.png';
+import chain_img from '../../assets/chain_img.png';
+import incentive_img from '../../assets/incentive_img.png';
+import interview_img from '../../assets/interview_img.png';
+import refer_img from '../../assets/refer_img.png';
 
 
 function LandingPage() {
