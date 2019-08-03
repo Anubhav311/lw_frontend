@@ -1,19 +1,17 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import './Login.css';
 
 function Login() {
-    const [login, setLogin] = useState(false)
 
     function changeLogin(e) {
         e.preventDefault()
-        setLogin(true)
+        alert("Please provide correct username and password")
     }
 
     return (
         <div className="login-container">
             <div className="form-container">
-                {login ? alert("Please provide correct username and password") : console.log() }
                 <form className="form">
                     <input placeholder="username" type="text"/>
                     <input placeholder="password" type="password"/>
