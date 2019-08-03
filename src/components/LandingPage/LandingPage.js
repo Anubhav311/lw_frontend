@@ -131,7 +131,7 @@ function LandingPage() {
         <div className="faq-apply">
           <h2>If you have more questions,</h2> 
           <h2>go ahead and apply and we will get in touch with you.</h2>
-          <button className="button faq-button">Apply</button>
+          <Link to="/apply"><button className="button faq-button">Apply</button></Link>
         </div>
       </div>
     </Tabs>
