@@ -45,3 +45,15 @@ input {
     font-weight: bold;
     color: white;
 }
+
+@media (max-width: 900px) {
+    .form-container {
+        width: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+    .form-container {
+        width: 70%;
+    }
+}
