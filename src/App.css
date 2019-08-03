@@ -171,11 +171,11 @@
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
     background: repeating-linear-gradient(
-  45deg,
-  #606dbc,
-  #606dbc 14px,
-  #465298 15px,
-  #465298 14px
+        45deg,
+        #606dbc,
+        #606dbc 14px,
+        #465298 15px,
+        #465298 14px
 );
 }
 
@@ -211,6 +211,22 @@
     margin-bottom: 100px;
 }
 
+.step img {
+    width: 45%;
+}
+
+@media (max-width: 700px) {
+    .step {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 700px) {
+    .step img {
+        width: 80%;
+    }
+}
+
 .step h2 {
     font-size: 1.2rem;
 }
@@ -219,8 +235,20 @@
     width: 40%;
 }
 
+@media (max-width: 700px) {
+    .step-text {
+        width: 80%;
+    }
+}
+
 .reverse {
     flex-direction: row-reverse;
+}
+
+@media (max-width: 700px) {
+    .reverse {
+        flex-direction: column;
+    }
 }
 
 .faq-section {

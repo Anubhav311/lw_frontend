@@ -39,28 +39,28 @@ function LandingPage() {
         <h2>Step 1: Clear interview and get accepted</h2>
         <p>Apply for an interview, do the interview and if you are accepted you can start right away.</p>
       </div>
-      <img style={{width: "45%"}} src={interview_img} alt="interview image"/>
+      <img src={interview_img} alt="interview image"/>
     </div>
     <div className="step">
     <div className="step-text">
         <h2>Step 2: Give referrals</h2>
         <p>Once you are accepted, all you have to do is just keep you eyes and ears open. Whenever you find someone who needs legal and financial services, you just tell them that you know us and we can provide them the services they need.</p>
       </div>
-      <img style={{width: "45%"}} src={refer_img} alt="refer image"/>
+      <img src={refer_img} alt="refer image"/>
     </div>
     <div className="step reverse">
     <div className="step-text">
         <h2>Step 3: get incentives in your bank</h2>
         <p>We will contact the client. We will meet the client and if client agrees to give us the work we will do the work and raise the bill. Once client pays the bill, you will get your incentive.</p>
       </div>
-      <img style={{width: "45%"}} src={incentive_img} alt="incentive image"/>
+      <img src={incentive_img} alt="incentive image"/>
     </div>
     <div className="step">
     <div className="step-text">
         <h2>Step 4: Create your own chain (actually you can start creating your chain whenever you want. We suggest asap)</h2>
         <p>If you know poeple who have links with bussinesses and firms, you can add them in your chain. They will do the same work. Refer clients to us. We will pay incentive to them as well as you. Building your chain is a great way of making a lot of money. larger the chain, more the incentive.</p>
       </div>
-      <img style={{width: "45%"}} src={chain_img} alt="chain image"/>
+      <img src={chain_img} alt="chain image"/>
     </div>
   </section>
 
