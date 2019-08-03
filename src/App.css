@@ -56,6 +56,12 @@
     color: white;
 }
 
+@media (max-width: 700px) {
+    .landing-page-navbuttons {
+        width: 40%;
+    }
+}
+
 .landing-page-navbuttons li {
     cursor: pointer;
 }
