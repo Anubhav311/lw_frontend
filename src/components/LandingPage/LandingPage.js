@@ -25,7 +25,6 @@ function LandingPage() {
   </div>
   <section className="gist-section">
     <div className="gist-div">
-      {/* <img style={{width: "60%"}} src={link_img} alt="header image"/> */}
       <h1>LinkWork</h1>
       <h2>Refer a client. Create a chain.</h2>
       <h2>And just sit back while we will make money for you.</h2>
