@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 import Accordion from "../faq/accordion";
 import Tabs from "../faq/Tabs";
@@ -8,7 +9,6 @@ import chain_img from '../../assets/chain_img.png';
 import incentive_img from '../../assets/incentive_img.png';
 import interview_img from '../../assets/interview_img.png';
 import refer_img from '../../assets/refer_img.png';
-import link_img from '../../assets/link_img.png';
 
 
 function LandingPage() {
@@ -19,7 +19,7 @@ function LandingPage() {
       <h1>LinkWork</h1>
       <p>Earn Minimum <span>"Rs. 50,000"</span></p>
       <p>Without spending any time or money</p>
-      <button className="button">Apply</button>
+      <Link to="/apply"><button className="button">Apply</button></Link>
     </div>
     <img style={{width: "60%"}} src={header_img} alt="header image"/>
   </div>
@@ -67,7 +67,7 @@ function LandingPage() {
 
   <section className="apply-bottom">
     <h1>Want to get started right away ?</h1>
-    <button className="button bottom-button">Apply</button>
+    <Link to="/apply"><button className="button bottom-button">Apply</button></Link>
   </section>
 
   <section className="faq-section">
