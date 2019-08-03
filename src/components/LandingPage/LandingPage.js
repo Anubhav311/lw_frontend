@@ -21,7 +21,7 @@ function LandingPage() {
       <p>Without spending any time or money</p>
       <Link to="/apply"><button className="button">Apply</button></Link>
     </div>
-    <img style={{width: "60%"}} src={header_img} alt="header image"/>
+    <img src={header_img} alt="header image"/>
   </div>
   <section className="gist-section">
     <div className="gist-div">
