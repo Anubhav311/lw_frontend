@@ -16,7 +16,7 @@ function App() {
       <nav className="navbar">
         <Link to="/"><p className="logo">LinkWork</p></Link>
         <ul className="landing-page-navbuttons">
-          <Link to="/apply"><li>Apply</li></Link>
+          <Link to="/apply"><li style={{marginRight: '15px'}}>Apply</li></Link>
           {/* <li>FAQs</li> */}
           <Link to="/login"><li>Login</li></Link>
         </ul>
