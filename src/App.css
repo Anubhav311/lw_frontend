@@ -196,7 +196,6 @@
     margin-bottom: 20px;
     text-decoration: underline;
     margin-bottom: 30px;
-    /* color: #2F2E41; */
 }
 
 /*Steps*/
@@ -208,8 +207,13 @@
 
 .steps-heading {
     margin-bottom: 70px;
-    color: #6C63FF;
-    text-decoration: underline;
+    font-size: 3rem;
+}
+
+@media (max-width: 700px) {
+    .steps-heading {
+        font-size: 2rem;
+    }
 }
 
 .step {
