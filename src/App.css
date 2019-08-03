@@ -48,8 +48,8 @@
 
 .landing-page-navbuttons {
     display: flex;
-    justify-content: space-between;
-    width: 30%;
+    justify-content: space-around;
+    width: 20%;
     font-weight: bold;
     margin: 0;
     height: 30%;
