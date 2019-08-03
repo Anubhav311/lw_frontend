@@ -17,7 +17,7 @@ function App() {
         <Link to="/"><p className="logo">LinkWork</p></Link>
         <ul className="landing-page-navbuttons">
           <Link to="/apply"><li>Apply</li></Link>
-          <li>Contact</li>
+          {/* <li>FAQs</li> */}
           <Link to="/login"><li>Login</li></Link>
         </ul>
       </nav>
