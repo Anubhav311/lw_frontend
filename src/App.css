@@ -277,6 +277,12 @@
     padding-bottom: 20px;
 }
 
+@media (max-width: 700px) {
+    .faq-apply {
+        width: 100%;
+    }
+}
+
 .faq-apply h2 {
     /* line-height: 30px; */
     margin-bottom: 15px;
@@ -286,6 +292,12 @@
     margin: auto;
     width: 30%;
     margin-top: 50px;
+}
+
+@media (max-width: 700px) {
+    .faq-button {
+        width: 50%;
+    }
 }
 
 /* Footer */
