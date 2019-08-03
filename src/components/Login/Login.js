@@ -6,7 +6,7 @@ function Login() {
 
     function changeLogin(e) {
         e.preventDefault()
-        alert("Please provide correct username and password")
+        setTimeout(() => alert("Please provide correct username and password"), 2500)
     }
 
     return (
