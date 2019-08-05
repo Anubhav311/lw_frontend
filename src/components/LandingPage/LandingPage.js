@@ -58,7 +58,7 @@ function LandingPage() {
     <div className="step">
     <div className="step-text">
         <h2>Important Step: Create your own chain</h2>
-        <p>If you know poeple who can do this type of work, you can add them in your chain. They will do the same work like you, but we will pay incentives to them as well as you. Because they are added as your chaing.</p>
+        <p>If you know people who can do this type of work, you can add them in your chain. They will do the same work like you, but we will pay incentives to them as well as to you. Because they are added as your chain.</p>
       </div>
       <img src={chain_img} alt="chain image"/>
     </div>

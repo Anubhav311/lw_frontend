@@ -19,7 +19,7 @@ let faqContent = {
         content: "No. We will never ask you to pay anything. Never.",
       },
       questionFive: {
-        title: "LINKWORK IS A SCAM OR FRAUD?",
+        title: "IS LINKWORK A SCAM OR FRAUD?",
         content: "We know LinkWork is too good to be true. But we are real. If you don't believe, just try us and see for yourself.",
       }
     },
