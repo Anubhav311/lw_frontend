@@ -247,6 +247,10 @@
     width: 40%;
 }
 
+.step-text p {
+    line-height: 1.3em;
+}
+
 @media (max-width: 700px) {
     .step-text {
         width: 80%;
