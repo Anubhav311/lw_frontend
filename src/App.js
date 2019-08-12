@@ -8,7 +8,7 @@ import './App.css';
 import LandingPage from './components/LandingPage/LandingPage'
 import ApplicationForm from './components/ApplicationForm/ApplicationForm';
 import Login from './components/Login/Login';
-
+import Dashboard from './components/Dashboard/Dashboard'
 
 function App() {
   return (
@@ -24,6 +24,7 @@ function App() {
       <Route exact path="/" component={LandingPage}/>
       <Route path="/apply" component={ApplicationForm}/>
       <Route path="/login" component={Login}/>
+      <Route path="/dashboard" component={Dashboard}/>
     </Router>
   );
 }
